@@ -29,18 +29,12 @@ print_r($users);
 
 $userCount = rand(0, 9);
 
-// * *"Soyez le premier à aimer cette publication"*,
-$like = 1;
-$post = 0+$like;
-
-echo $post;
-
-foreach ($users as $haveLiked => $post) {
+/*foreach ($users as $haveLiked => $post) {
     echo $haveLiked . " - " . $post . PHP_EOL;
-}
+}*/
 
 //#Retourne le nombre de personnes qui ont aimés la publication
-echo "Il y'a ". count($users). " " . "qui ont aimés la publication.";
+// echo "Il y'a ". count($users). " " . "qui ont aimés la publication.";
 
 // Get random name
 
